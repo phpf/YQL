@@ -1,0 +1,24 @@
+{
+	"name": "phpf/yql",
+	"type": "library",
+	"description": "Phpf YQL package",
+	"keywords": ["YQL", "Yahoo", "Yahoo Query Language"],
+	"homepage": "https://github.com/phpf/YQL",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "The PHPf Developer",
+			"email": "wellspeterson@live.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3",
+		"phpf/util": "dev-master"
+	},
+	"autoload": {
+		"psr-0": {
+			"Phpf\\Yql\\": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
