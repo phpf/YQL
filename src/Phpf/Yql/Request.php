@@ -38,7 +38,7 @@ class Request {
 			throw new Exception("Controller method must be callable.");
 		}
 		
-		if ( $http_controller_callable instanceof Closure ){
+		if ( $http_controller_callable instanceof \Closure ){
 			$this->execute = $http_controller_callable;
 		} else {
 			$this->execute = function ($url) use ($http_controller_callable){
