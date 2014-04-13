@@ -13,7 +13,7 @@
 	],
 	"require": {
 		"php": ">=5.3",
-		"phpf/framework": "dev-master"
+		"wells5609/php-util": "dev-master"
 	},
 	"autoload": {
 		"psr-0": {

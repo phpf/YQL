@@ -13,6 +13,7 @@ class Response {
 	public function __construct($data, Request $request) {
 		
 		$this->request = $request;
+		$this->raw = $data;
 		
 		if (is_object($data)) {
 			
@@ -21,8 +22,6 @@ class Response {
 				$this->query = $body->query;
 			}	
 		}
-		
-		$this->raw = $data;
 	}
 	
 	public function getResults() {
